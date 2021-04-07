@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Rita's Pizzeria</title>
+</head>
+<body>
+    <header>
+        <img width="450px" src="images/pizzaoven.jpg" alt="pizza oven header">
+        <h1 id="title">Rita's Pizzeria</h1>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+    <div id="main-menu">
+        <a href="find.html"><h2>🗺Find Us</h2></a>
+        <a href="contact.html"><h2>📞Contact us</h2></a>
+        <a href="menu.html"><h2>🍕Menu</h2></a>
+        <a href="index.html"><h2>📝Create Your Own</h2></a>
+    </div>
+</nav>
+    </header>
+
+    <main>
+        <h1>Place Your Order Online</h1>
+
+        <form method="POST" action="Thanks.html">
+            <fieldset>
+                <legend><h1>Style Your Own Pizza</h1></legend>
+
+                <h2>What Size?</h2>
+                <br>
+                <label for="10inch">10inch</label>
+                <input type="radio" name="10inch" id="10inch">
+
+                <label for="12inch">12inch</label>
+                <input type="radio" name="12inch" id="12inch">
+
+                <label for="16inch">16inch</label>
+                <input type="radio" name="16inch" id="16inch">
+                <br>
+                <br>
+                <h2>What Is Your Base Style?</h2>
+                <br>
+                <label for="Italian thin">Italian Thin</label>
+                <input type="radio" name="Italian Thin" id="Italian Thin">
+
+                <label for="Neapolitan pizza">Neapolitan pizza</label>
+                <input type="radio" name="Neapolitan pizza" id="Neapolitan pizza">
+
+                <label for="Deep Dish">Deep Dish</label>
+                <input type="radio" name="Deep Dish" id="Deep Dish">
+
+                <label for="New York Style">New York Style</label>
+                <input type="radio" name="New York Style" id="New York Style">
+                <br>
+                <br>
+                <h2>What's On Top?</h2>
+                <h3>Meat</h3>
+                <label for="Pepperoni">Spicy Pepperoni</label>
+                <input type="checkbox" name="MTopping" id="Pepperoni">
+
+                <label for="Chicken">Chicken</label>
+                <input type="checkbox" name="MTopping" id="Chicken">
+
+                <label for="Ham">Ham</label>
+                <input type="checkbox" name="MTopping" id="Ham">
+
+                <label for="Spicy Beef">Spicy Beef</label>
+                <input type="checkbox" name="MTopping" id="Spicy Beef">
+
+                <label for="Italian Salami">Italian Salami</label>
+                <input type="checkbox" name="MTopping" id="Italian Salami">
+
+                <label for="Nonna's Pollpettini">Nonna's Pollpettini</label>
+                <input type="checkbox" name="MTopping" id="Nonna's Pollpettini">
+                <br>
+                <br>
+                <h3>Vegatables</h3>
+                <label for="Mushroom">Wild Mushroom</label>
+                <input type="checkbox" name="VTopping" id="Mushroom">
+
+                <label for="Red Pepper">Red Pepper</label>
+                <input type="checkbox" name="VTopping" id="Red Pepper">
+
+                <label for="Green Pepper">Grenn Pepper</label>
+                <input type="checkbox" name="VTopping" id="Green Pepper">
+
+                <label for="Olives">Olives</label>
+                <input type="checkbox" name="VTopping" id="Olives">
+
+                <label for="Pineapple">Pineapple</label>
+                <input type="checkbox" name="VTopping" id="Pineapple">
+
+                <label for="Red Onion">Red Onion</label>
+                <input type="checkbox" name="VTopping" id="Red Onion">
+
+                <label for="Sweetcorn">Sweetcorn</label>
+                <input type="checkbox" name="VTopping" id="Sweetcorn">
+
+                <label for="Chilli">Fresh Chillies</label>
+                <input type="checkbox" name="VTopping" id="Chilli">
+
+                <label for="Basil">Fresh Basil</label>
+                <input type="checkbox" name="VTopping" id="Basil">
+                <br>
+                <br>
+                <h3>Extra's</h3>
+                <label for="Cheese">Extra Cheese</label>
+                <input type="checkbox" name="Extra" id="Cheese">
+
+                <label for="Stuffed Crust">Stuffed Crust</label>
+                <input type="checkbox" name="Extra" id="Stuffed Crust">
+
+                <label for="Extra Crispy">Extra Crispy</label>
+                <input type="checkbox" name="Extra" id="Extra Crispy">
+
+                <label for="dipping pot">Dipping Pot</label>
+                <select name="Extra" id="dipping pot">
+                    <optgroup>
+                        <option value="BBQ">BBQ</option>
+                        <option value="Garlic Mayo">Garlic Mayo</option>
+                        <option value="Sweet Chilli">Sweet Chilli</option>
+                        <option value="Tomato Sauce">Tomato Sauce</option>
+                        <option value="Brown Sauce">Brown Sauce</option>
+                        <option value="Mayo">Mayo</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend><h1>Payment</h1></legend> 
+
+                <input type="radio" name="Pay" id="Pay on Arrive">
+                <label for="Pay on Arrive'">Pay on Arrive</label>
+
+                <input type="radio" name="Pay" id="Pay Now">
+                <label for="Pay Now">Pay Now</label>
+
+                <h3>Bank Details</h3>
+
+                <label for="cardN">Card Number</label>
+                <input type="text"  name="cardN" id="cardN" placeholder="16 digits">
+                <br>
+                <br>
+                <label for="Expiry">Expiry Date</label>
+                <input type="text"  name="Expiry" id="Expiry" placeholder="**/**">
+                <br>
+                <br>
+                <label for="svv">SVV</label>
+                <input type="text"  name="svv" id="svv" placeholder="***">
+                <br>
+                <br>
+                <button style="width: 200px;" type="submit" id="button">Place Order</button>
+
+            </fieldset>
+            <br>
+            <br>
+
+            
+            
+        </form>
+
+    </main>
+
+
+</body>
+</html>
